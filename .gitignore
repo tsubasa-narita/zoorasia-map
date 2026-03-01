@@ -1,0 +1,9 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Dev tools
+coord-picker.html
+
+# PDF source
+zoorasia-map.pdf
