@@ -8,63 +8,63 @@
 // ==========================================
 const POIS = [
   // === ZONE: アジアの熱帯林 ===
-  { id: 'orangutan', type: 'animal', name: 'ボルネオオランウータン', nameEn: 'Bornean Orangutan', emoji: '🦧', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 11.53, y: 70.42, desc: '熱帯雨林に棲む大型の類人猿。木の上で生活し、果実や葉を食べます。知能が高く道具を使うことも。', habitat: '熱帯雨林', diet: '果実・葉', status: '絶滅危惧種' },
-  { id: 'tiger', type: 'animal', name: 'スマトラトラ', nameEn: 'Sumatran Tiger', emoji: '🐅', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 12.78, y: 57.64, desc: 'トラの亜種の中で最も小型。スマトラ島にのみ生息し、野生では400頭ほど。', habitat: '熱帯雨林', diet: '肉食', status: '絶滅寸前種' },
-  { id: 'clouded-leopard', type: 'animal', name: 'ウンピョウ', nameEn: 'Clouded Leopard', emoji: '🐆', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 9.10, y: 62.50, desc: '雲のような模様が特徴の中型ネコ科動物。長い尾でバランスを取り樹上で生活します。', habitat: '森林', diet: '肉食', status: '危急種' },
-  { id: 'indian-lion', type: 'animal', name: 'インドライオン', nameEn: 'Asiatic Lion', emoji: '🦁', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 7.29, y: 56.11, desc: 'インド・グジャラート州のギル森林にのみ野生個体が存在する、アフリカライオンの近縁種です。', habitat: '森林・草原', diet: '肉食', status: '絶滅危惧種' },
-  { id: 'tapir', type: 'animal', name: 'マレーバク', nameEn: 'Malayan Tapir', emoji: '🦏', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 17.01, y: 62.64, desc: '白と黒のツートンカラーが特徴。夜行性で果実や水草を食べます。', habitat: '熱帯雨林', diet: '草食', status: '絶滅危惧種' },
+  { id: 'orangutan', type: 'animal', name: 'ボルネオオランウータン', nameEn: 'Bornean Orangutan', emoji: '🦧', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 10.02, y: 77.00, desc: '熱帯雨林に棲む大型の類人猿。木の上で生活し、果実や葉を食べます。知能が高く道具を使うことも。', habitat: '熱帯雨林', diet: '果実・葉', status: '絶滅危惧種' },
+  { id: 'tiger', type: 'animal', name: 'スマトラトラ', nameEn: 'Sumatran Tiger', emoji: '🐅', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 8.07, y: 65.03, desc: 'トラの亜種の中で最も小型。スマトラ島にのみ生息し、野生では400頭ほど。', habitat: '熱帯雨林', diet: '肉食', status: '絶滅寸前種' },
+  { id: 'clouded-leopard', type: 'animal', name: 'ウンピョウ', nameEn: 'Clouded Leopard', emoji: '🐆', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 6.99, y: 71.38, desc: '雲のような模様が特徴の中型ネコ科動物。長い尾でバランスを取り樹上で生活します。', habitat: '森林', diet: '肉食', status: '危急種' },
+  { id: 'indian-lion', type: 'animal', name: 'インドライオン', nameEn: 'Asiatic Lion', emoji: '🦁', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 5.77, y: 87.38, desc: 'インド・グジャラート州のギル森林にのみ野生個体が存在する、アフリカライオンの近縁種です。', habitat: '森林・草原', diet: '肉食', status: '絶滅危惧種' },
+  { id: 'tapir', type: 'animal', name: 'マレーバク', nameEn: 'Malayan Tapir', emoji: '🦏', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 13.48, y: 72.39, desc: '白と黒のツートンカラーが特徴。夜行性で果実や水草を食べます。', habitat: '熱帯雨林', diet: '草食', status: '絶滅危惧種' },
 
   // === ZONE: 亜寒帯の森 ===
-  { id: 'polar-bear', type: 'animal', name: 'ホッキョクグマ', nameEn: 'Polar Bear', emoji: '🐻‍❄️', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 14.31, y: 19.44, desc: '北極圏に生息する最大の陸上肉食動物。厚い脂肪と白い毛皮で極寒に適応しています。', habitat: '北極圏', diet: '肉食', status: '危急種' },
-  { id: 'red-panda', type: 'animal', name: 'レッサーパンダ', nameEn: 'Red Panda', emoji: '🐼', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 9.72, y: 36.39, desc: '赤褐色の毛並みとふさふさの尾が特徴。竹やタケノコを主食としています。', habitat: '温帯林', diet: '竹・果実', status: '絶滅危惧種' },
-  { id: 'penguin', type: 'animal', name: 'フンボルトペンギン', nameEn: 'Humboldt Penguin', emoji: '🐧', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 14.03, y: 9.86, desc: '南米沿岸に生息するペンギン。温暖な地域にも適応し、魚を主食とします。', habitat: '沿岸地域', diet: '魚類', status: '危急種' },
-  { id: 'amur-leopard', type: 'animal', name: 'アムールヒョウ', nameEn: 'Amur Leopard', emoji: '🐆', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 6.81, y: 25.83, desc: '世界で最も希少な大型ネコ。極東ロシアの森林に100頭ほどしか生息していません。', habitat: '温帯林', diet: '肉食', status: '絶滅寸前種' },
-  { id: 'golden-takin', type: 'animal', name: 'ゴールデンターキン', nameEn: 'Golden Takin', emoji: '🐃', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 4.79, y: 40.69, desc: '金色の毛並みを持つ大型の偶蹄類。中国の山岳地帯に生息しています。', habitat: '山岳地帯', diet: '草食', status: '危急種' },
+  { id: 'polar-bear', type: 'animal', name: 'ホッキョクグマ', nameEn: 'Polar Bear', emoji: '🐻‍❄️', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 9.59, y: 25.23, desc: '北極圏に生息する最大の陸上肉食動物。厚い脂肪と白い毛皮で極寒に適応しています。', habitat: '北極圏', diet: '肉食', status: '危急種' },
+  { id: 'red-panda', type: 'animal', name: 'レッサーパンダ', nameEn: 'Red Panda', emoji: '🐼', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 7.07, y: 43.98, desc: '赤褐色の毛並みとふさふさの尾が特徴。竹やタケノコを主食としています。', habitat: '温帯林', diet: '竹・果実', status: '絶滅危惧種' },
+  { id: 'penguin', type: 'animal', name: 'フンボルトペンギン', nameEn: 'Humboldt Penguin', emoji: '🐧', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 15.00, y: 10.38, desc: '南米沿岸に生息するペンギン。温暖な地域にも適応し、魚を主食とします。', habitat: '沿岸地域', diet: '魚類', status: '危急種' },
+  { id: 'amur-leopard', type: 'animal', name: 'アムールヒョウ', nameEn: 'Amur Leopard', emoji: '🐆', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 4.83, y: 31.15, desc: '世界で最も希少な大型ネコ。極東ロシアの森林に100頭ほどしか生息していません。', habitat: '温帯林', diet: '肉食', status: '絶滅寸前種' },
+  { id: 'golden-takin', type: 'animal', name: 'ゴールデンターキン', nameEn: 'Golden Takin', emoji: '🐃', zone: '亜寒帯の森', zoneColor: '#5b8dbf', x: 3.68, y: 49.89, desc: '金色の毛並みを持つ大型の偶蹄類。中国の山岳地帯に生息しています。', habitat: '山岳地帯', diet: '草食', status: '危急種' },
 
   // === ZONE: オセアニアの草原 ===
-  { id: 'kangaroo', type: 'animal', name: 'アカカンガルー', nameEn: 'Red Kangaroo', emoji: '🦘', zone: 'オセアニアの草原', zoneColor: '#c8a94e', x: 15.21, y: 39.03, desc: '世界最大の有袋類。時速60kmで跳躍でき、オーストラリアの草原に生息。', habitat: '草原・砂漠', diet: '草食', status: '低危険種' },
-  { id: 'emu', type: 'animal', name: 'エミュー', nameEn: 'Emu', emoji: '🐦', zone: 'オセアニアの草原', zoneColor: '#c8a94e', x: 17.99, y: 45.97, desc: 'ダチョウに次ぐ世界2番目に大きな鳥。飛べないが時速48kmで走れます。', habitat: '草原・森林', diet: '雑食', status: '低危険種' },
+  { id: 'kangaroo', type: 'animal', name: 'アカカンガルー', nameEn: 'Red Kangaroo', emoji: '🦘', zone: 'オセアニアの草原', zoneColor: '#c8a94e', x: 15.00, y: 44.56, desc: '世界最大の有袋類。時速60kmで跳躍でき、オーストラリアの草原に生息。', habitat: '草原・砂漠', diet: '草食', status: '低危険種' },
+  { id: 'emu', type: 'animal', name: 'エミュー', nameEn: 'Emu', emoji: '🐦', zone: 'オセアニアの草原', zoneColor: '#c8a94e', x: 19.61, y: 50.47, desc: 'ダチョウに次ぐ世界2番目に大きな鳥。飛べないが時速48kmで走れます。', habitat: '草原・森林', diet: '雑食', status: '低危険種' },
 
   // === ZONE: 中央アジアの高地 ===
-  { id: 'przewalski', type: 'animal', name: 'モウコノウマ', nameEn: "Przewalski's Horse", emoji: '🐴', zone: '中央アジアの高地', zoneColor: '#a67c52', x: 25.21, y: 36.94, desc: '世界で唯一の野生馬。一度は野生絶滅しましたが、繁殖プログラムにより復帰。', habitat: '草原・ステップ', diet: '草食', status: '絶滅危惧種' },
-  { id: 'tibetan-macaque', type: 'animal', name: 'チベットモンキー', nameEn: 'Tibetan Macaque', emoji: '🐒', zone: '中央アジアの高地', zoneColor: '#a67c52', x: 20.49, y: 45.97, desc: '最も大型のマカク属。中国の山岳地帯の森林に群れで生活。', habitat: '山岳森林', diet: '雑食', status: '準絶滅危惧種' },
-  { id: 'dhole', type: 'animal', name: 'ドール', nameEn: 'Dhole', emoji: '🐕', zone: '中央アジアの高地', zoneColor: '#a67c52', x: 23.47, y: 45.42, desc: 'アジアの野生イヌ。群れで協力して獲物を狩ります。', habitat: '森林・草原', diet: '肉食', status: '絶滅危惧種' },
+  { id: 'przewalski', type: 'animal', name: 'モウコノウマ', nameEn: "Przewalski's Horse", emoji: '🐴', zone: '中央アジアの高地', zoneColor: '#a67c52', x: 25.38, y: 45.28, desc: '世界で唯一の野生馬。一度は野生絶滅しましたが、繁殖プログラムにより復帰。', habitat: '草原・ステップ', diet: '草食', status: '絶滅危惧種' },
+  { id: 'tibetan-macaque', type: 'animal', name: 'チベットモンキー', nameEn: 'Tibetan Macaque', emoji: '🐒', zone: '中央アジアの高地', zoneColor: '#a67c52', x: 23.00, y: 50.90, desc: '最も大型のマカク属。中国の山岳地帯の森林に群れで生活。', habitat: '山岳森林', diet: '雑食', status: '準絶滅危惧種' },
+  { id: 'dhole', type: 'animal', name: 'ドール', nameEn: 'Dhole', emoji: '🐕', zone: '中央アジアの高地', zoneColor: '#a67c52', x: 27.47, y: 52.49, desc: 'アジアの野生イヌ。群れで協力して獲物を狩ります。', habitat: '森林・草原', diet: '肉食', status: '絶滅危惧種' },
 
   // === ZONE: 日本の山里 ===
-  { id: 'macaque', type: 'animal', name: 'ニホンザル', nameEn: 'Japanese Macaque', emoji: '🐒', zone: '日本の山里', zoneColor: '#6b9e3c', x: 29.17, y: 35.42, desc: '世界で最も北に棲むサル。温泉に入ることでも知られています。', habitat: '温帯林', diet: '雑食', status: '低危険種' },
-  { id: 'bear', type: 'animal', name: 'ツキノワグマ', nameEn: 'Asian Black Bear', emoji: '🐻', zone: '日本の山里', zoneColor: '#6b9e3c', x: 31.32, y: 30.00, desc: '胸の三日月模様が特徴。日本の山地に広く分布しています。', habitat: '山地の森林', diet: '雑食', status: '危急種' },
-  { id: 'serow', type: 'animal', name: 'ニホンカモシカ', nameEn: 'Japanese Serow', emoji: '🐐', zone: '日本の山里', zoneColor: '#6b9e3c', x: 28.82, y: 20.42, desc: '日本固有の特別天然記念物。崖のような急斜面も器用に移動します。', habitat: '山地の森林', diet: '草食', status: '低危険種' },
-  { id: 'tsushima-cat', type: 'animal', name: 'ツシマヤマネコ', nameEn: 'Tsushima Leopard Cat', emoji: '🐱', zone: '日本の山里', zoneColor: '#6b9e3c', x: 28.33, y: 24.72, desc: '対馬にのみ生息する野生のネコ。推定個体数は約100頭。', habitat: '森林・山地', diet: '肉食', status: '絶滅寸前種' },
+  { id: 'macaque', type: 'animal', name: 'ニホンザル', nameEn: 'Japanese Macaque', emoji: '🐒', zone: '日本の山里', zoneColor: '#6b9e3c', x: 24.30, y: 38.21, desc: '世界で最も北に棲むサル。温泉に入ることでも知られています。', habitat: '温帯林', diet: '雑食', status: '低危険種' },
+  { id: 'bear', type: 'animal', name: 'ツキノワグマ', nameEn: 'Asian Black Bear', emoji: '🐻', zone: '日本の山里', zoneColor: '#6b9e3c', x: 29.78, y: 30.71, desc: '胸の三日月模様が特徴。日本の山地に広く分布しています。', habitat: '山地の森林', diet: '雑食', status: '危急種' },
+  { id: 'serow', type: 'animal', name: 'ニホンカモシカ', nameEn: 'Japanese Serow', emoji: '🐐', zone: '日本の山里', zoneColor: '#6b9e3c', x: 41.60, y: 21.77, desc: '日本固有の特別天然記念物。崖のような急斜面も器用に移動します。', habitat: '山地の森林', diet: '草食', status: '低危険種' },
+  { id: 'tsushima-cat', type: 'animal', name: 'ツシマヤマネコ', nameEn: 'Tsushima Leopard Cat', emoji: '🐱', zone: '日本の山里', zoneColor: '#6b9e3c', x: 30.21, y: 23.94, desc: '対馬にのみ生息する野生のネコ。推定個体数は約100頭。', habitat: '森林・山地', diet: '肉食', status: '絶滅寸前種' },
 
   // === ZONE: アマゾンの密林 ===
-  { id: 'capybara', type: 'animal', name: 'カピバラ', nameEn: 'Capybara', emoji: '🐹', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 28.47, y: 61.94, desc: '世界最大の齧歯類。体重60kgにもなり、水辺に群れで暮らします。', habitat: '水辺・草原', diet: '草食', status: '低危険種' },
-  { id: 'anteater', type: 'animal', name: 'オオアリクイ', nameEn: 'Giant Anteater', emoji: '🐾', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 30.00, y: 43.33, desc: '細長い口と舌でアリやシロアリを1日に3万匹も食べます。', habitat: '草原・森林', diet: 'アリ・シロアリ', status: '危急種' },
-  { id: 'bush-dog', type: 'animal', name: 'ヤブイヌ', nameEn: 'Bush Dog', emoji: '🐕', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 34.79, y: 30.42, desc: '南米に生息する珍しい犬科動物。短い脚と尾が特徴で、泳ぎが得意。', habitat: '熱帯林', diet: '肉食', status: '準絶滅危惧種' },
-  { id: 'spectacled-bear', type: 'animal', name: 'メガネグマ', nameEn: 'Spectacled Bear', emoji: '🐻', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 35.83, y: 24.44, desc: '南米唯一のクマ。目の周りの模様がメガネのように見えます。', habitat: '山岳雲霧林', diet: '雑食', status: '危急種' },
+  { id: 'capybara', type: 'animal', name: 'カピバラ', nameEn: 'Capybara', emoji: '🐹', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 27.11, y: 47.01, desc: '世界最大の齧歯類。体重60kgにもなり、水辺に群れで暮らします。', habitat: '水辺・草原', diet: '草食', status: '低危険種' },
+  { id: 'anteater', type: 'animal', name: 'オオアリクイ', nameEn: 'Giant Anteater', emoji: '🐾', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 31.07, y: 46.58, desc: '細長い口と舌でアリやシロアリを1日に3万匹も食べます。', habitat: '草原・森林', diet: 'アリ・シロアリ', status: '危急種' },
+  { id: 'bush-dog', type: 'animal', name: 'ヤブイヌ', nameEn: 'Bush Dog', emoji: '🐕', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 34.10, y: 34.32, desc: '南米に生息する珍しい犬科動物。短い脚と尾が特徴で、泳ぎが得意。', habitat: '熱帯林', diet: '肉食', status: '準絶滅危惧種' },
+  { id: 'spectacled-bear', type: 'animal', name: 'メガネグマ', nameEn: 'Spectacled Bear', emoji: '🐻', zone: 'アマゾンの密林', zoneColor: '#2e7d32', x: 36.12, y: 27.11, desc: '南米唯一のクマ。目の周りの模様がメガネのように見えます。', habitat: '山岳雲霧林', diet: '雑食', status: '危急種' },
 
   // === ZONE: アフリカの熱帯雨林 ===
-  { id: 'okapi', type: 'animal', name: 'オカピ', nameEn: 'Okapi', emoji: '🦒', zone: 'アフリカの熱帯雨林', zoneColor: '#1b5e20', x: 56.53, y: 26.11, desc: 'キリンの仲間ですが首は短く、脚に白い縞模様があります。「森の貴婦人」とも呼ばれるズーラシアのシンボル。', habitat: '熱帯雨林', diet: '草食', status: '絶滅危惧種' },
-  { id: 'chimpanzee', type: 'animal', name: 'チンパンジー', nameEn: 'Chimpanzee', emoji: '🦍', zone: 'アフリカの熱帯雨林', zoneColor: '#1b5e20', x: 69.51, y: 32.64, desc: 'ヒトに最も近い動物の一つ。道具を使い、複雑な社会を形成します。', habitat: '熱帯雨林', diet: '雑食', status: '絶滅危惧種' },
+  { id: 'okapi', type: 'animal', name: 'オカピ', nameEn: 'Okapi', emoji: '🦒', zone: 'アフリカの熱帯雨林', zoneColor: '#1b5e20', x: 58.83, y: 24.37, desc: 'キリンの仲間ですが首は短く、脚に白い縞模様があります。「森の貴婦人」とも呼ばれるズーラシアのシンボル。', habitat: '熱帯雨林', diet: '草食', status: '絶滅危惧種' },
+  { id: 'chimpanzee', type: 'animal', name: 'チンパンジー', nameEn: 'Chimpanzee', emoji: '🦍', zone: 'アフリカの熱帯雨林', zoneColor: '#1b5e20', x: 69.21, y: 34.32, desc: 'ヒトに最も近い動物の一つ。道具を使い、複雑な社会を形成します。', habitat: '熱帯雨林', diet: '雑食', status: '絶滅危惧種' },
 
   // === ZONE: アフリカのサバンナ ===
-  { id: 'giraffe', type: 'animal', name: 'キリン', nameEn: 'Giraffe', emoji: '🦒', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 91.18, y: 14.58, desc: '陸上で最も背が高い動物。長い首で高い木の葉を食べます。舌は約45cm。', habitat: 'サバンナ', diet: '草食', status: '危急種' },
-  { id: 'cheetah', type: 'animal', name: 'チーター', nameEn: 'Cheetah', emoji: '🐆', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 81.11, y: 15.97, desc: '陸上最速の動物。時速110kmで走れます。涙の跡のような黒い模様が特徴。', habitat: 'サバンナ', diet: '肉食', status: '危急種' },
-  { id: 'lion', type: 'animal', name: 'ライオン', nameEn: 'Lion', emoji: '🦁', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 87.22, y: 12.36, desc: '「百獣の王」。群れ（プライド）で生活する唯一のネコ科動物です。', habitat: 'サバンナ', diet: '肉食', status: '危急種' },
-  { id: 'zebra', type: 'animal', name: 'グラントシマウマ', nameEn: "Grant's Zebra", emoji: '🦓', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 86.81, y: 22.92, desc: '白と黒の縞模様は個体ごとに異なり、仲間を見分けるのに役立ちます。', habitat: 'サバンナ', diet: '草食', status: '低危険種' },
-  { id: 'meerkat', type: 'animal', name: 'ミーアキャット', nameEn: 'Meerkat', emoji: '🐿️', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 87.22, y: 16.94, desc: '立ち上がって見張りをする姿が人気。群れで協力して子育てをします。', habitat: '砂漠・草原', diet: '雑食', status: '低危険種' },
-  { id: 'rhino', type: 'animal', name: 'ヒガシクロサイ', nameEn: 'Eastern Black Rhinoceros', emoji: '🦏', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 77.99, y: 20.00, desc: '上唇が尖っているのが特徴。密猟により絶滅危機に瀕しています。', habitat: 'サバンナ', diet: '草食', status: '絶滅寸前種' },
+  { id: 'giraffe', type: 'animal', name: 'キリン', nameEn: 'Giraffe', emoji: '🦒', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 91.42, y: 14.28, desc: '陸上で最も背が高い動物。長い首で高い木の葉を食べます。舌は約45cm。', habitat: 'サバンナ', diet: '草食', status: '危急種' },
+  { id: 'cheetah', type: 'animal', name: 'チーター', nameEn: 'Cheetah', emoji: '🐆', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 81.90, y: 15.57, desc: '陸上最速の動物。時速110kmで走れます。涙の跡のような黒い模様が特徴。', habitat: 'サバンナ', diet: '肉食', status: '危急種' },
+  { id: 'lion', type: 'animal', name: 'ライオン', nameEn: 'Lion', emoji: '🦁', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 86.37, y: 10.81, desc: '「百獣の王」。群れ（プライド）で生活する唯一のネコ科動物です。', habitat: 'サバンナ', diet: '肉食', status: '危急種' },
+  { id: 'zebra', type: 'animal', name: 'グラントシマウマ', nameEn: "Grant's Zebra", emoji: '🦓', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 88.46, y: 24.51, desc: '白と黒の縞模様は個体ごとに異なり、仲間を見分けるのに役立ちます。', habitat: 'サバンナ', diet: '草食', status: '低危険種' },
+  { id: 'meerkat', type: 'animal', name: 'ミーアキャット', nameEn: 'Meerkat', emoji: '🐿️', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 84.57, y: 17.88, desc: '立ち上がって見張りをする姿が人気。群れで協力して子育てをします。', habitat: '砂漠・草原', diet: '雑食', status: '低危険種' },
+  { id: 'rhino', type: 'animal', name: 'ヒガシクロサイ', nameEn: 'Eastern Black Rhinoceros', emoji: '🦏', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 77.51, y: 22.93, desc: '上唇が尖っているのが特徴。密猟により絶滅危機に瀕しています。', habitat: 'サバンナ', diet: '草食', status: '絶滅寸前種' },
 
   // === RESTAURANTS ===
-  { id: 'jungle-cafe', type: 'food', name: 'ジャングルカフェ', emoji: '☕', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 14.51, y: 58.75, hours: '9:30～16:30', lastOrder: 'フードL.O. 15:30', area: 'アジアの熱帯林エリア', menu: ['カレーライス', 'ナン', 'タンドリーチキン', 'ラッシー', 'ソフトクリーム'] },
-  { id: 'aqua-cafe', type: 'food', name: 'アクアテラスカフェ', emoji: '🧊', zone: '正門付近', zoneColor: '#42a5f5', x: 24.03, y: 75.69, hours: '10:00～16:30', lastOrder: '', area: '正門・噴水口付近', menu: ['フレッシュネスバーガー', 'ソフトクリーム', 'コーヒー', 'フライドポテト'] },
-  { id: 'aussie-grill', type: 'food', name: 'オージーヒル グリルレストラン', emoji: '🍖', zone: 'オセアニアの草原', zoneColor: '#c8a94e', x: 17.50, y: 26.81, hours: '10:00～16:00', lastOrder: 'L.O. 15:30', area: 'オセアニアの草原エリア', menu: ['ステーキ', 'ハンバーグ', 'チキングリル', 'サラダバー'] },
-  { id: 'savanna-terrace', type: 'food', name: 'サバンナテラス', emoji: '🍛', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 73.47, y: 23.61, hours: '10:00～16:00', lastOrder: 'L.O. 15:30', area: 'アフリカのサバンナエリア', menu: ['ムシカキ（牛串）', 'サバンナカレー', 'フライドポテト'] },
+  { id: 'jungle-cafe', type: 'food', name: 'ジャングルカフェ', emoji: '☕', zone: 'アジアの熱帯林', zoneColor: '#2d8a4e', x: 11.18, y: 66.47, hours: '9:30～16:30', lastOrder: 'フードL.O. 15:30', area: 'アジアの熱帯林エリア', menu: ['カレーライス', 'ナン', 'タンドリーチキン', 'ラッシー', 'ソフトクリーム'] },
+  { id: 'aqua-cafe', type: 'food', name: 'アクアテラスカフェ', emoji: '🧊', zone: '正門付近', zoneColor: '#42a5f5', x: 17.23, y: 85.08, hours: '10:00～16:30', lastOrder: '', area: '正門・噴水口付近', menu: ['フレッシュネスバーガー', 'ソフトクリーム', 'コーヒー', 'フライドポテト'] },
+  { id: 'aussie-grill', type: 'food', name: 'オージーヒル グリルレストラン', emoji: '🍖', zone: 'オセアニアの草原', zoneColor: '#c8a94e', x: 16.37, y: 34.32, hours: '10:00～16:00', lastOrder: 'L.O. 15:30', area: 'オセアニアの草原エリア', menu: ['ステーキ', 'ハンバーグ', 'チキングリル', 'サラダバー'] },
+  { id: 'savanna-terrace', type: 'food', name: 'サバンナテラス', emoji: '🍛', zone: 'アフリカのサバンナ', zoneColor: '#e8a735', x: 74.62, y: 25.23, hours: '10:00～16:00', lastOrder: 'L.O. 15:30', area: 'アフリカのサバンナエリア', menu: ['ムシカキ（牛串）', 'サバンナカレー', 'フライドポテト'] },
 
   // === FACILITIES ===
-  { id: 'main-gate', type: 'gate', name: '正門', emoji: '🚪', x: 15.42, y: 79.17, desc: 'メインエントランス。総合案内所・コインロッカーあり。' },
-  { id: 'bus-stop', type: 'facility', name: '園内バス のりば', emoji: '🚌', x: 24.51, y: 82.64, desc: '園内バスの乗り場。各エリアを結ぶバスが運行。' },
-  { id: 'camel-ride', type: 'facility', name: 'ラクダライド', emoji: '🐫', x: 93.19, y: 25.28, desc: 'ラクダに乗って園内を回れる体験コーナー。' },
-  { id: 'bird-show', type: 'facility', name: 'バードショー広場', emoji: '🦅', x: 88.82, y: 33.19, desc: '迫力あるバードショーが楽しめる広場。' },
+  { id: 'main-gate', type: 'gate', name: '正門', emoji: '🚪', x: 14.71, y: 87.82, desc: 'メインエントランス。総合案内所・コインロッカーあり。' },
+  { id: 'bus-stop', type: 'facility', name: '園内バス のりば', emoji: '🚌', x: 12.47, y: 80.89, desc: '園内バスの乗り場。各エリアを結ぶバスが運行。' },
+  { id: 'camel-ride', type: 'facility', name: 'ラクダライド', emoji: '🐫', x: 86.23, y: 20.48, desc: 'ラクダに乗って園内を回れる体験コーナー。' },
+  { id: 'bird-show', type: 'facility', name: 'バードショー広場', emoji: '🦅', x: 89.98, y: 30.43, desc: '迫力あるバードショーが楽しめる広場。' },
 ];
 
 // ==========================================
